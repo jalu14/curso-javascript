@@ -14,7 +14,6 @@ Sirve para hacer comprobaciones de cadenas de texto, es más lento que otras fun
 var regex = /abc/; // Crea un object con propiedad de regex
 
 regex.test('holabchola'); // True
-
 ```
 
 1. Tenemos que usar **IF** / **ELSES**
