@@ -7,12 +7,14 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --colors --watch **/*.spec.js"
+    "test": "mocha --colors --watch src/**/*.spec.js",
+    "doc": "jsdoc -c jsdoc.conf.json -r"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^5.8.0",
     "expect.js": "^0.3.1",
     "mocha": "^5.2.0"
   }
