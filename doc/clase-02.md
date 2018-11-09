@@ -44,7 +44,7 @@ Creamos un archivo js con una función básica para probarla.
 **sum.js**
 ```javascript
 function sum (x, y) {
-    if (!x.isNaN() || !y.isNaN()) throw new Error('Solo se pueden usar números.');
+    if (isNaN(x) || isNaN(y)) throw new Error('Solo se pueden usar números.');
     return x + y;
 }
 
