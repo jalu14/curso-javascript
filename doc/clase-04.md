@@ -10,7 +10,7 @@ La base es crear una función que dada un integer devuelva una cadena de texto c
 
 1. Tenemos que usar **IF** / **ELSES**
 2. Tenemos que usar **SWITCH**
-3. No tenemos que usar ELSE, solo IF, podemos usar muchos **RETURN**
+3. No tenemos que usar **ELSE**, solo **IF**, podemos usar muchos **RETURN**
 
 ### Preguntas
 
