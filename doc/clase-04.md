@@ -20,6 +20,8 @@ regex.test('holabchola'); // True
 2. Tenemos que usar **SWITCH**
 3. No tenemos que usar **ELSE**, solo **IF**, podemos usar muchos **RETURN**
 
+
+
 ### Preguntas
 
 - Porque === en lugar de ==
