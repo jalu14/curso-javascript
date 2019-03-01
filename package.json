@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "servidor-http": "http-server http",
     "test": "mocha --colors --watch src/**/*.spec.js",
     "doc": "jsdoc -c jsdoc.conf.json -r"
   },
@@ -17,5 +18,8 @@
     "eslint": "^5.8.0",
     "expect.js": "^0.3.1",
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
   }
 }
